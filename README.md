@@ -9,15 +9,15 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 
 ## Installation
 
-In the first time, you can take a look at [darknet's website](https://pjreddie.com/darknet/install/) for general information on installation.
+At first, you can take a look at [darknet's website](https://pjreddie.com/darknet/install/) for general information on installation.
 
-To install for MacOsx :
+To install on MacOsx :
 ```
 cd darknet
 make
 ```
 
-To install for Windows :
+To install on Windows :
 
 Follow this issue : https://github.com/pjreddie/darknet/issues/721
 
@@ -31,7 +31,7 @@ To execute the prediction's command, you will need to download:
 
 ## Usage
 
-First, you need to store all of your pictures into `./data` and ensure thaht every image is in a sub-directory of the same name: for example if you have a screenshot named `"voitures.png"`, you will store the screenshot into a folder named `voitures` and then the path to the screenshot will be `./data/voitures/voitures.png`.
+First, you need to store all of your pictures into `./data` and ensure that every image is in a sub-directory of the same name: for example if you have a screenshot named `"voitures.png"`, you will store the screenshot into a folder named `voitures` and then the path to the screenshot will be `./data/voitures/voitures.png`.
 
 ### Automatic labelization
 
