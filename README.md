@@ -1,7 +1,7 @@
 ![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
 
 # Darknet #
-Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
+Darknet is an open source neural network framework written in C and CUDA. It supports CPU and GPU computation.
 
 For more information see the [Darknet project website](http://pjreddie.com/darknet).
 
@@ -9,7 +9,7 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 
 ## Installation
 
-At first, you can take a look at [darknet's website](https://pjreddie.com/darknet/install/) for general information on installation.
+For general information on installation, you can take a look at [darknet's website](https://pjreddie.com/darknet/install/).
 
 To install on MacOsx :
 ```
@@ -31,7 +31,7 @@ To execute the prediction's command, you will need to download:
 
 ## Usage
 
-First, you need to store all of your pictures into `./data` and ensure that every image is in a sub-directory of the same name: for example if you have a screenshot named `"voitures.png"`, you will store the screenshot into a folder named `voitures` and then the path to the screenshot will be `./data/voitures/voitures.png`.
+First, create a `./data` directory and store all your pictures into it. In that directory, create a subdirectory for every picture: for a picture named `"voitures.png"`, you will store this file in a subdirectory named `voitures`. The path to the screenshot will be `./data/voitures/voitures.png`.
 
 ### Automatic labelization
 
